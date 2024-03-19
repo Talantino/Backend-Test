@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 MY_APPS = [
-    'product',
+    'courses',
 ]
 
 INSTALLED_APPS = [

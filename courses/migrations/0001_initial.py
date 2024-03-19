@@ -45,8 +45,8 @@ class Migration(migrations.Migration):
             name='StudentProductAccess',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.product')),
-                ('student', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.student')),
+                ('courses', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='courses.courses')),
+                ('student', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='courses.student')),
             ],
             options={
                 'verbose_name_plural': 'Доступы студентов',
@@ -55,7 +55,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='student',
             name='products',
-            field=models.ManyToManyField(through='product.StudentProductAccess', to='product.product'),
+            field=models.ManyToManyField(through='courses.StudentProductAccess', to='courses.courses'),
         ),
         migrations.AddField(
             model_name='student',
@@ -68,7 +68,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=255, verbose_name='Название Урока')),
                 ('video_link', models.URLField()),
-                ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.product')),
+                ('courses', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='courses.courses')),
             ],
             options={
                 'verbose_name': 'Урок',
@@ -80,8 +80,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('group_name', models.CharField(max_length=255, verbose_name='Название Группы')),
-                ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='product.product')),
-                ('students', models.ManyToManyField(to='product.student')),
+                ('courses', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='courses.courses')),
+                ('students', models.ManyToManyField(to='courses.student')),
             ],
             options={
                 'verbose_name': 'Группа',
