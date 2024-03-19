@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590a4f46-7a64-4d65-a806-adbdac159571" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/courses/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
