@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from rest_framework import permissions, viewsets
 
-from api.v1.serializers.user_serializers import CustomUserSerializer
+from api.v1.serializers.userserializers import CustomUserSerializer
 
 User = get_user_model()
 

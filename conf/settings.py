@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 MY_APPS = [
     'courses',
+    'users'
 ]
 
 INSTALLED_APPS = [
@@ -56,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'api.urls'
+ROOT_URLCONF = 'conf.urls'
 
 TEMPLATES = [
     {
@@ -129,7 +130,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = "users.CustomUser"
+AUTH_USER_MODEL = "users.CustomerUser"
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [

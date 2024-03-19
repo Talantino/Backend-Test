@@ -4,13 +4,13 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from api.v1.permissions import IsStudentOrIsAdmin, ReadOnlyOrIsAdmin
-from api.v1.serializers.course_serializers import (CourseSerializer,
+from api.v1.serializers.courseserializers import (CourseSerializer,
                                                   CreateCourseSerializer,
                                                   CreateGroupSerializer,
                                                   CreateLessonSerializer,
                                                   GroupSerializer,
                                                   LessonSerializer)
-from api.v1.serializers.user_serializer import SubscriptionSerializer
+from api.v1.serializers.userserializers import SubscriptionSerializer
 from courses.models import Course
 from users.models import Subscription
 
