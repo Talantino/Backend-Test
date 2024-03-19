@@ -15,7 +15,7 @@
 ## Установка на локальном компьютере
 
 1. **Клонируйте репозиторий:**
-git clone git@github.com:<YOUR_REPOSITORY>
+git clone git@github.com:git@github.com:Talantino/Backend-Test.git
 
 
 2. **Установите и активируйте виртуальное окружение:**
